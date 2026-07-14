@@ -1,3 +1,4 @@
+<?php /* © 2026 Eng. Yahya Shalf. All Rights Reserved. */ ?>
 <?php
 // index.php
 $pageTitle = 'Cobone - Latest Offers';
