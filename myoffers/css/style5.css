@@ -1,0 +1,53 @@
+.offer-form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.offer-form-container h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.offer-form-container input,
+.offer-form-container select,
+.offer-form-container textarea,
+.offer-form-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.offer-form-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.offer-form-container button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.offer-form-container button:hover {
+    background-color: #218838;
+}
+
+a.back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+a.back-link:hover {
+    text-decoration: underline;
+}

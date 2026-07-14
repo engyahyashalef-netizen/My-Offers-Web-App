@@ -1,0 +1,56 @@
+body { font-family: Arial, sans-serif; margin: 20px; background: #fff; color: #333; }
+    .breadcrumb { font-size: 14px; margin-bottom: 10px; }
+    .breadcrumb a { text-decoration: none; color: #555; }
+    .breadcrumb span { margin: 0 5px; color: #999; }
+    .offer-container { display: flex; gap: 20px; border-top: 2px solid #e0e0e0; padding-top: 20px; }
+    .offer-left { flex: 1 1 60%; position: relative; }
+    .offer-left img.main { width: 100%; border-radius: 4px; }
+    .salon-logo { position: absolute; bottom: -20px; left: 0; background: #fff; padding: 5px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+    .salon-logo img { height: 50px; }
+    .offer-right { flex: 1 1 35%; background: #fff; padding: 40px 20px 20px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: relative; }
+    .quantity-selector { position: absolute; top: 20px; right: 20px; display: flex; align-items: center; }
+    .quantity-selector label { font-size: 14px; margin-right: 5px; }
+    .quantity-selector input { width: 50px; padding: 4px 6px; font-size: 14px; text-align: center; border: 1px solid #ccc; border-radius: 3px; }
+    .discount-badge { position: absolute; top: 60px; right: 20px; background: #ff6600; color: #fff; padding: 6px 10px; font-weight: bold; border-radius: 3px; font-size: 13px; }
+    .price-section {
+      background-color: #1e90ff;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 4px;
+      padding: 10px 0;
+      margin-top: 100px;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+    .price-section s {
+      color: #fff;
+      margin: 0 10px;
+      opacity: 0.7;
+    }
+    .deal-price-amount {
+      color: white;
+      font-weight: bold;
+    }
+    .add-cart-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to bottom, #ff9f00 0%, #ff6600 100%);
+      color: #fff;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 3px;
+      width: 100%;
+      box-shadow: inset 0 1px rgba(255,255,255,0.3), 0 2px 4px rgba(0,0,0,0.2);
+      text-decoration: none;
+    }
+    .add-cart-btn:hover {
+      background: linear-gradient(to bottom, #ffb533 0%, #ff7a00 100%);
+    }
+    .btn-icon { width: 18px; height: auto; margin-right: 8px; }
+    .caption { margin-top: 40px; font-size: 14px; color: #666; }
